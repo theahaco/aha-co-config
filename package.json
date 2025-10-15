@@ -20,7 +20,8 @@
     "format": "prettier . --write",
     "lint": "eslint .",
     "typecheck": "tsc",
-    "validate": "run-p -l format lint typecheck"
+    "validate": "run-p -l format lint typecheck",
+    "prepack": "npm run validate"
   },
   "keywords": [
     "config",
