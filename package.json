@@ -1,7 +1,7 @@
 {
   "$schema": "https://json.schemastore.org/package",
   "name": "@aha-co/config",
-  "version": "1.1.0",
+  "version": "1.2.0",
   "description": "Standardized configs for Aha JS projects",
   "main": "index.js",
   "types": "index.d.ts",
