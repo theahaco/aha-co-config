@@ -1,4 +1,4 @@
-/** @type {import("prettier").Options} */
+/** @type {import("prettier").Config} */
 export const config = {
 	arrowParens: "always",
 	bracketSameLine: false,

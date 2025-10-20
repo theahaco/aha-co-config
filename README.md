@@ -46,6 +46,17 @@ Create a `reset.d.ts` file:
 import "@aha-co/config/reset.d.ts"
 ```
 
+#### TS for Libraries
+
+The configuration above assumes you're using a bundler to create an application.
+If you're creating a library, you'll want the configuration to be more strict to
+be consumable in as many setups as possible. You can extend a different config
+instead:
+
+```json
+  extends: ["@aha-co/config/typescript.lib"],
+```
+
 ### ESLint
 
 Create a `eslint.config.js` file in the project root and
